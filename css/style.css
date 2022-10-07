@@ -1,5 +1,6 @@
 body {
     color: #555555;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -11,14 +12,147 @@ a {
     color: #000;
 }
 
-/* .hero {
-    background-image: ;
-} */
-
-.header-button:hover {
-    color: red;
+.btn {
+    background: transparent;
 }
 
-.header-button:focus {
-    color: blue;
+.btn:hover,
+.btn:focus {
+    background: #FF6C00;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
 }
+
+/* Header */
+header {
+    background-color: grey;
+}
+
+.header-nav-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #FF6C00;
+}
+
+.header-tel-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    background: #FF6C00;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+}
+
+/* Hero */
+.hero {
+    background-color: #555555;
+}
+
+.hero-list-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.2em;
+    color: #FF6C00;
+}
+
+.hero-title-before {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.hero-title-after {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+/* About */
+.about-title-before {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.about-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.about-title-after {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+/* services */
+.services-title-before {}
+
+.services-title {}
+
+.services-list-first {}
+
+.services-list-last {}
