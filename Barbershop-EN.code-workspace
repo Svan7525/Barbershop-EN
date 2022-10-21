@@ -2,7 +2,13 @@
   "folders": [
     {
       "path": "."
+    },
+    {
+      "path": "..\\fecore-70"
     }
   ],
-  "settings": {}
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Barbershop-EN",
+    "liveServer.settings.port": 5501
+  }
 }
