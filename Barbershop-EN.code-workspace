@@ -1,10 +1,12 @@
 {
   "folders": [
     {
-      "path": "."
+      "name": "fecore-70",
+      "path": "..\\fecore-70"
     },
     {
-      "path": "..\\fecore-70"
+      "name": "Barbershop-EN",
+      "path": "."
     }
   ],
   "settings": {
